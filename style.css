@@ -1,0 +1,25 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: "roboto-black";
+	src: url("fonts/Roboto-Black.ttf");
+	font-family: "roboto-medium";
+	src: url("fonts/Roboto-Medium.ttf");
+	font-family: "roboto-regular";
+	src: url("fonts/Roboto-Regular.ttf");
+}
+
+h2 {
+	font-family: 'roboto-black';
+}
+
+h3 {
+	font-family: 'roboto-medium';
+}
+
+h4 {
+	font-family: 'roboto-regular';
+}
