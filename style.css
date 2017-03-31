@@ -35,28 +35,22 @@ nav.navbar-default {
 	font-size: 13px;
 
 	padding-top: 12px;
-	padding-bottom: 10px;
+	padding-bottom: 12px;
 
 	box-shadow: 0px 0px 10px #666666;
 }
 
-nav.navbar-default ul li {
-	list-style-type: none;
-	display: inline;
-}
-
-nav.navbar-default ul li a {
-	text-decoration: none;
-	color: #1a1a1a;
-}
-
 nav.navbar-default ul li a:hover {
-	color: #176610;
+	color: #176610 !important;
+	transition: 0.5s;
 }
 
-a#select {
-	color: #176610;
-	font-weight: bold;
+nav.navbar-default ul li a.produtos {
+	-webkit-animation-delay: 0.5s;
+}
+
+nav.navbar-default ul li a.contato {
+	-webkit-animation-delay: 1s;
 }
 
 /*HOME*/
@@ -137,6 +131,18 @@ div.cont1 div.panel2 div.col-sm-5 {
 div.cont1 div.panel2 div.col-sm-7 {
 	padding-right: 0px !important;
 	padding-left: 0px !important;
+}
+
+a.chevron-up {
+	text-decoration: none;
+	color: #176610;
+
+	-webkit-animation-delay: 1s;
+	-webkit-animation-duration: 3s;
+}
+
+a.chevron-up:hover {
+	color: #176610;
 }
 
 /*rodapé*/
