@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-	<title>Empresa</title>
+	<title>PG Química | Empresa</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--forçar o internet explorer-->
 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--responsividade-->
@@ -15,23 +15,82 @@
   	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> <!--favicon-->
 </head>
 
-<body>
+<body class="body-empresa">
   <!--cabeçalho-->
   <nav class="navbar navbar-default">
-    <div class="container">   
-      <ul>
-        <div class="row">
-          <div class="col-sm-3"></div>
-          <div class="col-sm-2" style=" text-align: center; padding-bottom: 3.5px; padding-top: 3.5px;"><li><a href="home.html"><img src="img/logo-pgquimica.png" alt="Logo da empresa PG Química" class="img-responsive" style="display: inline;"></a></li></div>
-          <div class="col-sm-1" style=" text-align: center; padding-bottom: 16px; padding-top: 16px; margin-top: 3px;"><li><a href="empresa.html" id="select">EMPRESA</a></li></div>
-          <div class="col-sm-1" style=" text-align: center; padding-bottom: 16px; padding-top: 16px; margin-top: 3px;"><li><a href="produtos.html">PRODUTOS</a></li></div>
-          <div class="col-sm-2" style=" text-align: center; padding-bottom: 16px; padding-top: 16px; margin-top: 3px;"><li><a href="contato.html">LOCALIZAÇÃO/CONTATO</a></li></div>
-          <div class="col-sm-3"></div>
+    <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-3"></div>
+      <div class="col-sm-2">
+        <div class="navbar-header">
+          <a href="index.html"><img src="img/logo-pgquimica.png"></a>
+          <a class="navbar-toggle" type="buttom" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
         </div>
-      </ul>
+      </div>
+
+      <div class="col-sm-5">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav" style="text-align: center;">
+            <li><a href="empresa.html" class="animated fadeInDown active">EMPRESA</a></li>
+            <li><a href="produtos.html" class="animated fadeInDown produtos">PRODUTOS</a></li>
+            <li><a href="contato.html" class="animated fadeInDown contato">LOCALIZAÇÃO/CONTATO</a></li>
+          </ul> 
+         </div> 
+      </div>
+      <div class="col-sm-5"></div>
     </div>  
+    </div>
   </nav>
   <!--cabeçalho-->
+
+  <!--corpo-->
+  <div class="container-fluid" style="border-bottom: 15px solid #176610;">
+    <img src="img/produ_ceramicas01.jpg" class="img-responsive" style="margin: auto;">
+  </div>
+
+  <div class="container cont1">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="panel panel-default panel-empresa">
+          <div class="panel-heading">
+            <h3><b>A EMPRESA</b></h3><br>
+            <p>A PG Química é uma empresa dinâmica que atua no meio cerâmico e comercializa produtos químicos de alta qualidade. Está instalada em um local privilegiado na cidade de Cordeirópolis-SP, onde funcionam as partes fabril, comercial e administrativa, com logística facilitada, tornando-se mais ágil e prática.</p>
+
+            <p>Além de contar com uma <b>equipe técnica altamente qualificada</b>, a PG Química também possui parceria com a renomada e experiente Pernambuco Química S/A, uma empresa fundada há mais de 50 anos e instalada em Pernambuco.</p>
+
+            <p>Os produtos são variados, possuem uma qualidade ímpar e podem ser produzidos exclusivamente para você. Fora a linha convencional, a PG Química também trabalha com a produção e o desenvolvimento de linhas personalizadas para cada cliente conforme suas necessidades.</p>
+
+            <p>Trabalhar com uma empresa que coloca qualidade e cliente à frente, é trabalhar com a <b>PG Química</b>.</p>
+            </h4>
+          </div>
+          <div class="panel-body">
+            <img src="img/empresa.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="padding-bottom: 20px; padding-right: 10px;">
+    <a href="empresa.html" class="chevron-up wow animated fadeInUpBig"><span class="glyphicon glyphicon-chevron-up" style="float: right; font-size: 20px;"></span></a>
+  </div>
+  <!--corpo-->
+
+  <!--rodapé-->
+  <footer class="container-fluid">
+     <h5><span class="glyphicon glyphicon-map-marker"></span> Rua Atílio Gardezani, 107 - Distrito Industrial, Cordeirópolis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-earphone"></span> <b>(19) 3546-2509 / 3546-2840</b></h5><br>
+
+     <img src="img/logo-pgquimica.png" class="img-responsive" style="margin: auto;">
+     <p style="font-size: 10px;">Copyright © 2017. PG Química. Todos os direitos reservados.</p>
+  </footer>
+<!--rodapé-->
 
 <!--plugin efeito de rolagem-->
 	<script src="WOW-master/dist/wow.min.js"></script>

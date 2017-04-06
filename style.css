@@ -19,7 +19,7 @@
 }
 
 body {
-	
+
 }
 
 /*cabeçalho*/
@@ -51,6 +51,11 @@ nav.navbar-default ul li a.produtos {
 
 nav.navbar-default ul li a.contato {
 	-webkit-animation-delay: 1s;
+}
+
+li a.active {
+	color: #176610 !important;
+	font-family: 'roboto-black';
 }
 
 /*HOME*/
@@ -90,11 +95,13 @@ div.cont1 div.panel1 div.row {
 div.cont1 div.panel1 div.col-sm-7 {
 	padding-right: 0px !important; 
 	padding-left: 0px !important;
+
+	border-left: 10px solid #176610;
 }
 
 div.cont1 div.panel1 div.col-sm-5 { 
-	padding-top: 73px; 
-	padding-bottom: 73px; 
+	padding-top: 71px; 
+	padding-bottom: 71px; 
 
 	text-align: left;
 
@@ -116,8 +123,8 @@ div.cont1 div.panel2 div.row {
 }
 
 div.cont1 div.panel2 div.col-sm-5 {
-	padding-top: 73px;
-	padding-bottom: 73px;
+	padding-top: 71px;
+	padding-bottom: 71px;
 
 	text-align: right;
 
@@ -131,24 +138,124 @@ div.cont1 div.panel2 div.col-sm-5 {
 div.cont1 div.panel2 div.col-sm-7 {
 	padding-right: 0px !important;
 	padding-left: 0px !important;
+
+	border-right: 10px solid #176610;
 }
 
 a.chevron-up {
 	text-decoration: none;
 	color: #176610;
 
-	-webkit-animation-delay: 1s;
-	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-duration: 2s;
 }
 
 a.chevron-up:hover {
 	color: #176610;
 }
 
+/*EMPRESA*/
+body.body-empresa {
+	background-image: url("img/bg_empresa.jpg");
+	background-size: cover; /*preencher a largura da imagem de fundo*/
+	background-clip: padding-box;
+	background-origin: padding-box;
+	background-repeat: no-repeat;
+}
+
+div.panel-empresa {
+	box-shadow: 0px 0px 20px #cccccc;
+
+	border-right: 10px solid #176610;
+}
+
+div.panel-empresa div.panel-heading {
+	background-color: #ffffff;
+
+	color: #176610;	
+}
+
+div.panel-empresa div.panel-heading p {
+	font-family: 'roboto-regular';
+}
+
+/*PRODUTOS*/
+div.well-produtos1 {
+	border: none;
+	border-right: 10px solid #176610;
+	border-radius: 1px;
+
+	background-color: #ffffff;
+
+	box-shadow: 0px 0px 20px #cccccc;
+
+	font-family: 'roboto-medium';
+	color: #176610;
+
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+div.well-produtos2 {
+	border: none;
+	border-bottom: 3px solid #176610;
+	border-radius: 0px;
+
+	background-color: #ffffff;
+	color: #176610;
+
+	font-family: 'roboto-medium';
+
+	box-shadow: none;
+
+	padding-bottom: 5px;
+}
+
+div.panel-group div.panel-default {
+	margin-top: 0px;
+}
+
+div.panel-group div.panel-heading {
+	font-family: 'roboto-regular' !important;
+
+	box-shadow: none;
+
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	border-radius: 0px;
+
+	background-color: #ffffff !important;
+
+	padding-top: 0px !important;
+}
+
+div.panel-group div.panel-heading a {
+	color: #176610;
+}
+
+div.panel-heading a:hover {
+	text-decoration: none;
+	color: #0a2c07 !important;
+}
+
+div.panel-heading a:link {
+	text-decoration: none;
+}
+
+div.panel-group div.panel-body {
+	color: #808080;
+
+	font-family: 'roboto-regular';
+}
+
 /*rodapé*/
 footer {
 	padding-top: 25px;
 	padding-bottom: 25px;
+
+	background-color: #ffffff;
+
+	color: #333333;
 
 	box-shadow: 1px 0px 10px #cccccc;
 
