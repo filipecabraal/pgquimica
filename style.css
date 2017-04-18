@@ -180,6 +180,15 @@ div.panel-empresa div.panel-heading p {
 }
 
 /*PRODUTOS*/
+body.body-produtos {
+	background-image: url("img/bg_produtos.jpg");
+	background-size: cover; /*preencher a largura da imagem de fundo*/
+	background-clip: padding-box;
+	background-origin: padding-box;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 div.well-produtos1 {
 	border: none;
 	border-right: 10px solid #176610;
@@ -209,6 +218,18 @@ div.well-produtos2 {
 	box-shadow: none;
 
 	padding-bottom: 5px;
+}
+
+div.panel-group {
+	background-color: #ffffff;
+
+	box-shadow: 0px 0px 20px #cccccc;
+
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+
+	border-radius: 1px;
 }
 
 div.panel-group div.panel-default {
