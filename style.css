@@ -105,7 +105,7 @@ div.cont1 div.panel1 div.col-sm-5 {
 
 	text-align: left;
 
-	background-image: url("img/bg_pg-sm.jpg");
+	background-image: url("img/bg_pg-sm.png");
 	background-size: cover;
 	background-clip: padding-box;
 	background-origin: padding-box;
@@ -128,7 +128,7 @@ div.cont1 div.panel2 div.col-sm-5 {
 
 	text-align: right;
 
-	background-image: url("img/bg_pg-sm.jpg");
+	background-image: url("img/bg_pg-sm.png");
 	background-size: cover;
 	background-clip: padding-box;
 	background-origin: padding-box;
@@ -292,7 +292,7 @@ div.container-localizacao {
 	color: #176610;
 }
 
-div.container-contato p {
+div.container-localizacao p {
 	font-family: 'roboto-regular' !important;
 }
 
