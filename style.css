@@ -18,10 +18,6 @@
 	src: url("fonts/Roboto-Regular.ttf");
 }
 
-body {
-
-}
-
 /*cabeçalho*/
 nav.navbar-default {
 	background-color: #fff;
@@ -89,7 +85,7 @@ div.cont1 div.panel1 div.row {
 	border-radius: 1px;
 
 	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0.5s;
+	-webkit-animation-delay: 1s;
 }
 
 div.cont1 div.panel1 div.col-sm-7 {
@@ -106,10 +102,10 @@ div.cont1 div.panel1 div.col-sm-5 {
 	text-align: left;
 
 	background-image: url("img/bg_pg-sm.png");
-	background-size: cover;
+	/*background-size: cover;
 	background-clip: padding-box;
 	background-origin: padding-box;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 /*panel2*/
@@ -119,7 +115,7 @@ div.cont1 div.panel2 div.row {
 	border-radius: 1px;
 
 	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0.5s;
+	-webkit-animation-delay: 1s;
 }
 
 div.cont1 div.panel2 div.col-sm-5 {
@@ -129,10 +125,6 @@ div.cont1 div.panel2 div.col-sm-5 {
 	text-align: right;
 
 	background-image: url("img/bg_pg-sm.png");
-	background-size: cover;
-	background-clip: padding-box;
-	background-origin: padding-box;
-	background-repeat: no-repeat;
 } 
 
 div.cont1 div.panel2 div.col-sm-7 {
@@ -190,6 +182,8 @@ body.body-produtos {
 }
 
 div.well-produtos1 {
+	margin-top: 40px;
+	
 	border: none;
 	border-right: 10px solid #176610;
 	border-radius: 1px;
@@ -202,7 +196,7 @@ div.well-produtos1 {
 	color: #176610;
 
 	padding-top: 1px;
-	padding-bottom: 10px;
+	padding-bottom: 10px;s
 }
 
 div.well-produtos2 {
@@ -292,7 +286,7 @@ div.container-localizacao {
 	color: #176610;
 }
 
-div.container-localizacao p {
+div.container-localizacao, div.container-contato p {
 	font-family: 'roboto-regular' !important;
 }
 
